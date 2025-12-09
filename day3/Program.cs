@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 /*
 Console.WriteLine("Hello, day3!");
 int x;
@@ -225,10 +225,90 @@ else if ((x > 10) && (x <= 99))
 else if (x >= 100)
 {
     int a, b, c;
+    string res1, res2, res3;
+    res1 = "";
+    res2 = "";
+    res3 = "";
     a = x % 10;
     b = ((x - a) / 10) % 10;
     c = (x - b * 10 - a) / 100;
     Console.WriteLine($"{c * 100}+{b * 10}+{a}");
+    if (c == 1)
+    {
+        res1 = "One";
+    }
+    else if (c == 2)
+    {
+        res1 = "Two";
+    }
+    else if (c == 3)
+    {
+        res1 = "Three";
+    }
+    else if (c == 4)
+    {
+        res1 = "Four";
+    }
+    else if (c == 5)
+    {
+        res1 = "Five";
+    }
+    else if (c == 6)
+    {
+        res1 = "Six";
+    }
+    else if (c == 7)
+    {
+        res1 = "Seven";
+    }
+    else if (c == 8)
+    {
+        res1 = "Eight";
+    }
+    else if (c == 9)
+    {
+        res1 = "Nine";
+    }
+    if (a == 0)
+    {
+        res3 = "Zero";
+    }
+    else if (a == 1)
+    {
+        res3 = "One";
+    }
+    else if (a == 2)
+    {
+        res3 = "Two";
+    }
+    else if (a == 3)
+    {
+        res3 = "Three";
+    }
+    else if (a == 4)
+    {
+        res3 = "Four";
+    }
+    else if (a == 5)
+    {
+        res3 = "Five";
+    }
+    else if (a == 6)
+    {
+        res3 = "Six";
+    }
+    else if (a == 7)
+    {
+        res3 = "Seven";
+    }
+    else if (a == 8)
+    {
+        res3 = "Eight";
+    }
+    else if (a == 9)
+    {
+        res3 = "Nine";
+    }
 }
 
 
